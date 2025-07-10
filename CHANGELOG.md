@@ -4,6 +4,48 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog][Keep a Changelog] and this project adheres to [Semantic Versioning][Semantic Versioning].
 
+## [3.5.1] - *January 2025*
+
+### Fixed
+
+* Fixed dependency conflicts - now installs without `--legacy-peer-deps`
+* Updated TypeScript to v5.7.2 for better React 19 compatibility
+* Improved peer dependency ranges for better compatibility
+
+### Dependencies
+
+* Updated TypeScript to ^5.7.2
+* All dependencies now install cleanly without peer dependency conflicts
+
+## [3.5.0] - *January 2025*
+
+### Added
+
+* **React 19 Support**: The carousel now supports React 19 alongside React 17 and 18. ([@norbert])
+* **MUI v6 Support**: Added support for Material-UI v6 while maintaining backward compatibility with v5. ([@norbert])
+
+### Changed
+
+* Updated TypeScript configuration to use `jsx: "react-jsx"` and target ES2018 for better React 19 compatibility
+* Updated demo application to use React 19 and the new `createRoot` API
+* Updated framer-motion to v11 for improved React 19 compatibility
+* Updated TypeScript to v5.6.3 for better type support
+
+### Dependencies
+
+* Updated `@emotion/react` to ^11.13.3
+* Updated `@emotion/styled` to ^11.13.0  
+* Updated `@mui/icons-material` to ^6.1.6
+* Updated `@mui/material` to ^6.1.6
+* Updated `@mui/system` to ^6.1.6
+* Updated `framer-motion` to ^11.11.17
+* Updated `react-scripts` to ^5.0.1
+
+### Migration
+
+* No breaking changes - fully backward compatible
+* See [MIGRATION_GUIDE.md](MIGRATION_GUIDE.md) for detailed migration instructions
+
 ## [3.4.0 - 3.4.2] - *May 28 2022*
 
 ### Fixed

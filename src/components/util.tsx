@@ -3,7 +3,7 @@ import NavigateNext from '@mui/icons-material/NavigateNext';
 import { CarouselNavProps, CarouselProps } from './types';
 import React, { ReactNode, useEffect, useRef } from 'react';
 import { SxProps } from '@mui/system';
-import { Theme } from '@mui/material';
+import { Theme } from '@mui/material/styles';
 
 export interface SanitizedCarouselProps extends CarouselProps
 {

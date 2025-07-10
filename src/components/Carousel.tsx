@@ -9,7 +9,7 @@ import
     StyledItemWrapper,
     StyledRoot
 } from './Styled';
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 
 export const Carousel = (props: CarouselProps) =>

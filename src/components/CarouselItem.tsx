@@ -5,7 +5,7 @@ import
     MotionProps,
     PanInfo
 } from 'framer-motion';
-import React, { ReactNode, useCallback, useEffect, useRef } from 'react';
+import { ReactNode, useCallback, useEffect, useRef } from 'react';
 import { StyledItem } from './Styled';
 
 export interface CarouselItemProps

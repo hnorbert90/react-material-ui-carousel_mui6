@@ -40,6 +40,17 @@ npm install @material-ui/icons
 npm install react-material-ui-carousel@v2mui5 --save
 ```
 
+## Compatibility
+
+### React Support
+- React 17.x ✅
+- React 18.x ✅  
+- React 19.x ✅
+
+### Material-UI Support
+- MUI v5.x ✅
+- MUI v6.x ✅
+
 ## Usage Example
 
 ```jsx
